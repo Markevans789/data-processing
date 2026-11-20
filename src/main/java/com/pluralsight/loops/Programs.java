@@ -20,4 +20,10 @@ public class Programs {
         people.add(new Person("Mia", "Simmons", 29));
         people.add(new Person("Yuri", "fujiwara", 22));
     }
+
+    Scanner scanner = new Scanner(System.in);
+    System.out("Enter a first or last name: ");
+    String searchName = scanner.nextLine();
+
+    ArrayList<Person> matches = new ArrayList<>();
 }
